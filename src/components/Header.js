@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-
 import '../style/header.css'
+import GoogleAuth from './GoogleAuth'
 
 function Header() {
     return (
@@ -12,8 +12,8 @@ function Header() {
                       <Link to="/"> Streamer</Link>
                   </h2>
                   <ul className="items">
-                      <li> <Link to="/"> Streams</Link></li>
-                      {/* <li>Login</li> */}
+                      {/* <li> <Link to="/"> Streams</Link></li> */}
+                      <li><GoogleAuth/></li>
                   </ul>
                   </div> 
               

@@ -1,0 +1,23 @@
+.googleButton{
+    background-color:rgb(230, 32, 32);
+    padding:10px 20px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+    outline: none;
+    border: none;
+    
+}
+.googleButton i{
+    color: white;
+    margin-right: 10px;   
+}
+
+
+.googleButton:hover{
+    background-color:rgb(231, 52, 52);
+    cursor: pointer;
+   
+}
