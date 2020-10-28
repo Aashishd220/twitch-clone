@@ -1,0 +1,47 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(3, 3, 3);
+    color: white;
+    justify-content: space-around;
+}
+.navbar h2{
+    font-size: 2rem;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    padding: 20px;
+}
+
+.navbar h2:hover{
+   background-color: rgb(49, 47, 47);
+   border-radius: 10px;
+  
+}
+
+.navbar ul{
+  list-style: none;
+  display: flex;
+  /* background-color:blue; */
+}
+
+.navbar ul li{
+    margin-left: 80px;
+    font-size: 1.5rem;
+    padding:20px;
+  
+
+}
+
+.navbar ul li:hover{
+    background-color: rgb(49, 47, 47);
+    border-radius: 10px;
+ }
